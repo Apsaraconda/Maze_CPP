@@ -36,6 +36,7 @@ An example of such a file:
 1 1 1 1
 ```
 The maze described in this file:
+
 ![alt-текст](https://github.com/Apsaraconda/Maze_CPP/raw/main/materials/maze4.jpg "Example maze")
 
 ## Solving the maze
