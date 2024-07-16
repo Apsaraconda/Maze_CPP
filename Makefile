@@ -38,6 +38,11 @@ ifeq ($(OS),Darwin)
 	brew install --cask mactex
 endif
 
+libs_install:
+ifeq ($(OS),Linux)
+	sudo apt-get install qt6-base-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev
+endif
+
 dvi:
 	latex ./readme.tex
 	$(OPEN_CMD) ./readme.dvi
@@ -64,3 +69,5 @@ git_add:
 	git add src/*.ui
 	git add src/maze/*.cc
 	git add src/maze/*.h
+	git add materials/*.jpg
+	git add README.md
