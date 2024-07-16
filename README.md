@@ -73,7 +73,7 @@ Or manually open "Maze_CPP" file.
 ```
 make dist
 ```
-It makes "dist_Maze_CPP.tar.gz" file.
+It makes "Maze_CPP.tar.gz" file.
 
 ## Compile and open readme.dvi:
 ```
