@@ -1,5 +1,5 @@
 # Maze_CPP
-Maze generator &amp; solve program C++ (for Ubuntu / MacOS)
+
 Maze is a program for generating, solve mazes, read and save mazes from files.
 
 ## Requirements:
