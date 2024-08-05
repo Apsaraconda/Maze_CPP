@@ -126,7 +126,7 @@ void MyOpenGLWidget::PrintRightWalls() {
       glVertex2f(i % maze_->GetX() + 1, i / maze_->GetX());
       glVertex2f(i % maze_->GetX() + 1, i / maze_->GetX() + 1);
       glEnd();
-      glPointSize(2);
+      glPointSize(1);
       glEnable(GL_POINT_SMOOTH);
       glBegin(GL_POINTS);
       glVertex2f(i % maze_->GetX() + 1, i / maze_->GetX());
@@ -144,7 +144,7 @@ void MyOpenGLWidget::PrintBottomWalls() {
       glVertex2f(i % maze_->GetX(), i / maze_->GetX() + 1);
       glVertex2f(i % maze_->GetX() + 1, i / maze_->GetX() + 1);
       glEnd();
-      glPointSize(2);
+      glPointSize(1);
       glEnable(GL_POINT_SMOOTH);
       glBegin(GL_POINTS);
       glVertex2f(i % maze_->GetX() + 1, i / maze_->GetX());
@@ -199,7 +199,7 @@ void MyOpenGLWidget::PrintSolution(std::vector<std::pair<float, float>> solve) {
     glVertex2f(crd.first, crd.second);
   }
   glEnd();
-  glPointSize(2);
+  glPointSize(1);
   glEnable(GL_POINT_SMOOTH);
   glBegin(GL_POINTS);
   for (auto it = solve.cbegin(); it != solve.cend(); it++) {
