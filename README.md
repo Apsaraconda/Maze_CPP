@@ -2,6 +2,8 @@
 
 Maze is a program for generating, solve mazes, read and save mazes from files.
 
+![](https://github.com/Apsaraconda/Maze_CPP/blob/main/assets/preview.gif)
+
 ## Requirements:
 - Ubuntu or MacOS operating system;
 - Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
