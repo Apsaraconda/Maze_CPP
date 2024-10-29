@@ -39,7 +39,7 @@ An example of such a file:
 ```
 The maze described in this file:
 
-![alt-текст](https://github.com/Apsaraconda/Maze_CPP/raw/main/materials/maze4.jpg "Example maze")
+![alt-текст](https://github.com/Apsaraconda/Maze_CPP/raw/main/assets/maze4.jpg "Example maze")
 
 ## Solving the maze
 Program is able to show the solution to any maze currently shown on the screen. To display the solution path, select the starting and ending points by clicking the mouse.
