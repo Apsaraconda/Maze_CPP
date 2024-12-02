@@ -1,14 +1,14 @@
 # Maze_CPP
 
-Maze is a program for generating, solve mazes, read and save mazes from files.
+Maze is a program for generating, solve mazes, read and save mazes from files for Ubuntu or MacOS operating system.
 
 ![](https://github.com/Apsaraconda/Maze_CPP/blob/main/assets/preview.gif)
 
-## Requirements:
+## Compilation requirements:
 - Ubuntu or MacOS operating system;
 - Qt version 6+ (e.g. qt-6-base-dev for Ubuntu);
 - OpenGL libraries;
-- Cmake for compiling;
+- Cmake;
 
 ## Basic properties:
 - GUI implementation, based on Qt library;
